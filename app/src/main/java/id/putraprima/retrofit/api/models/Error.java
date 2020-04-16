@@ -17,4 +17,27 @@ public class Error {
         this.email = email;
     }
 
+    @SerializedName("password")
+    @Expose
+    private List<String> password = null;
+
+    public List<String> getPassword() {
+        return password;
+    }
+
+    public void setPassword(List<String> password) {
+        this.password = password;
+    }
+
+    @SerializedName("name")
+    @Expose
+    private List<String> name;
+
+    public List<String> getName() {
+        return name;
+    }
+
+    public void setName(List<String> name) {
+        this.name = name;
+    }
 }
