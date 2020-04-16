@@ -1,7 +1,7 @@
 package id.putraprima.retrofit.api.models;
 
 public class Envelope<T> {
-    Links links;
+    Links links; // response ke linknya
     Meta meta;
     T data;
 
